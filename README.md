@@ -15,6 +15,9 @@ The model was trained on the mentioned image datasets and  Transfer Learning alg
 We ran around 90 epochs for the model for the model to learn and ran metrics to check for the performance.
 The trained  model was  saved in h5 format saved for futher use.
 
+![kisspng-flask-python-web-framework-bottle-microframework-django-5b3d0ba62504c0 3512153115307273341516](https://user-images.githubusercontent.com/76935226/149612516-23d78698-0718-4537-acb8-042ab27f4d3e.jpg)
+![image](https://user-images.githubusercontent.com/76935226/149612569-32b26f50-2363-473a-81bb-caea72043eaa.png)
+
 A Flask app was developed where the user can provide thier X-Ray image and the model will detect if the image input belongs to Covid or NonCovid group.
 
 ![Screenshot (162)](https://user-images.githubusercontent.com/76935226/148753898-dbeb483f-680b-4cd1-a2d3-c1ec96257ea7.png)
