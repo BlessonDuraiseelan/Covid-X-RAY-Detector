@@ -8,6 +8,7 @@ When training the model of Covid detection there is a requirement of Covid  X-Ra
 The following datasets were used to train the model for our requirements:
 
 COVID X-RAY DATASET -https://github.com/ieee8023/covid-chestxray-dataset
+
 NORMAL X-RAY - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 The model was trained on the mentioned image datasets and  Transfer Learning algorithm Resnet 50 was used where training process was applied on the the base layers and then normal convolution operations were performed keeping the initial layers.
