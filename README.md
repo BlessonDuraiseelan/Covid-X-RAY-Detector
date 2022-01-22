@@ -1,18 +1,22 @@
 # Covid-X-RAY-Detector
 
-This web app is developed for the detection of Covid from the X-Ray that is uploaded by the  the user. We have trained the model on multiple
+This python web app based on Transfer Learning and Convolution Neural Nerwork is developed for the detection of Covid in a patient  from the X-Ray that is uploaded by the  the user. The model is trained  on multiple
 images of Covid X Rays and Non-Covid X Rays. Resnet 50 model is used to train the model. A Flask App was developed where the user can upload Chest X-rays and get the output of possibility of COVID infection.
 
 # Dataset and Model
-When training the model of Covid detection there is a requirement of Covid  X-Ray images and non- Covid X-Ray Images.
+The model which was developed for the training of detection of Covid from the X-Rays had to be trained on multiple X-Ray images of Covid samples as well as Non-Covid Samples.
+
 The following datasets were used to train the model for our requirements:
 
 COVID X-RAY DATASET -https://github.com/ieee8023/covid-chestxray-dataset
 
 NORMAL X-RAY - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
-The model was trained on the mentioned image datasets and  Transfer Learning algorithm Resnet 50 was used where training process was applied on the the base layers and then normal convolution operations were performed keeping the initial layers.
-We ran around 90 epochs for the model for the model to learn and ran metrics to check for the performance.
+The model was trained on the mentioned image datasets and  Transfer Learning algorithm Resnet 50 was used in order to check its performance on training the images as well as training the base leyers.
+After the Resnet operation was completed the model was trained by performing  normal convolution operations on the subsequent layers keeping the initial layers non-active.
+
+The model was trained for 90 epochs in order for the model to learn the features of the training images.
+Various metrics were used in order to check the performance of the model.
 The trained  model was  saved in h5 format saved for futher use.
 
 ![kisspng-flask-python-web-framework-bottle-microframework-django-5b3d0ba62504c0 3512153115307273341516](https://user-images.githubusercontent.com/76935226/149612516-23d78698-0718-4537-acb8-042ab27f4d3e.jpg)
