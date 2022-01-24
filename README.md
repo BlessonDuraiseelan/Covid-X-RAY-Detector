@@ -26,7 +26,10 @@ The trained  model was  saved in h5 format saved for futher use.
 
 A Flask app was developed where the user can provide thier X-Ray image and the model will detect if the image input belongs to Covid or NonCovid group.
 
-![Screenshot (162)](https://user-images.githubusercontent.com/76935226/148753898-dbeb483f-680b-4cd1-a2d3-c1ec96257ea7.png)
-![Screenshot (163)](https://user-images.githubusercontent.com/76935226/148753914-d10af011-f637-41e2-a392-3cc1b43ca3f1.png)
-![Screenshot (164)](https://user-images.githubusercontent.com/76935226/148753923-8c53581e-f830-40f1-a815-1bd086702c54.png)
-![Screenshot (165)](https://user-images.githubusercontent.com/76935226/148753853-93c201e3-5022-44ff-bac2-879fab731acf.png)
+![Screenshot (184)](https://user-images.githubusercontent.com/76935226/150754595-7d3a4369-b358-4acd-89a1-a960bc0276b1.png)
+![Screenshot (182)](https://user-images.githubusercontent.com/76935226/150754618-a8d1d416-0962-41fd-90c4-108e02faefc6.png)
+![Screenshot (183)](https://user-images.githubusercontent.com/76935226/150754644-051043aa-bbf7-4cec-8ceb-2c4806f887d1.png)
+
+
+
+
