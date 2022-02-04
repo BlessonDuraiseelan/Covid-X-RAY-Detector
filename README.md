@@ -20,6 +20,8 @@ After the Resnet operation was completed the model was trained by performing  no
 The model was trained for 95 epochs in order for the model to learn the features of the training images.
 Various metrics were used in order to check the performance of the model.
 
+The model is achieving 95% accuracy on test data.
+
 The trained  model was  saved in h5 format saved for futher use in flask api for prediction purposes.
 
 ![kisspng-flask-python-web-framework-bottle-microframework-django-5b3d0ba62504c0 3512153115307273341516](https://user-images.githubusercontent.com/76935226/149612516-23d78698-0718-4537-acb8-042ab27f4d3e.jpg)
